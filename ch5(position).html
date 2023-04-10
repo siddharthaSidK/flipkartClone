@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        header{
+            background-color: black;
+            color: aliceblue;
+            height: 40px;
+            position: sticky;
+            z-index: 10;
+            top: 0;
+        }
+        /* li{   
+        display: inline;
+        } */
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            position: relative;
+            z-index: 30;
+        }
+        p{
+            border: 2px solid red;
+            height: 444vh ;
+        }
+        .box{
+            /* position: sticky; */
+            background-color: greenyellow;
+            height: 200px;
+            width: 400px;
+            position: absolute;
+            /* position: relative; */
+            /* left: 50px; */
+            /* top:50px; */
+            /* bottom: 50px; */
+            /* right:50px; */
+        }
+        .box2{
+            background-color: blue;
+            color: beige;
+            width: 200px;
+            height: 100px;
+            /* position: fixed; */
+        }
+        li{
+            list-style: circle outside url('hunter350.jpg');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum totam asperiores temporibus voluptatibus.</p>
+        <div class="box">
+            This is a box
+        </div>
+        <div class="box2">
+            One more box
+        </div>
+    </div>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+</body>
+</html>

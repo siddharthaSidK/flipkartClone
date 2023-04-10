@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header{
+            display: grid;
+            background-color: black;
+            color: aliceblue;
+            grid-template-columns: auto auto;
+        }
+        img{
+            height: 400px;
+            width: 640px;
+        }
+        li{
+            display: inline;
+        }
+        ul{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-area: center;
+
+        }
+        .class{
+            background-image: url('prabhas.avif');
+            height: 50vh;
+            background-repeat: repeat-x;
+        }
+        .container{
+            display: grid;
+            /* background-color: aqua; */
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+        }
+        .one{
+            height: 30vh;
+            width: 30vw;
+            background-color: red;
+        }
+        .two{
+            height: 30vh;
+            width: 30vw;
+            background-color: blueviolet;
+        }
+        .three{
+            height: 30vh;
+            width: 30vw;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="hunter350.jpg" alt="">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+    </header>
+    <div class="class">
+        
+    </div>
+    <div class="container">
+        <div class="one">one <img src="img.jpg" alt=""></div>
+        <div class="two">two <img src="lamborghini.jpg" alt=""></div>
+        <div class="three">three <img src="hunter350.jpg" alt=""></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipkartCloneProject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Baloo+Bhai+2&family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #2874f0;
+            height: 80px;
+            display: flex;
+        }
+        ul{
+            margin: 5px;
+            padding: 20px;
+        }
+        li{
+            margin: 15px;
+            display: inline;
+        }
+        .img1{
+            height: 6vh;
+            margin: 15px;
+        }
+        input{
+            width: 400px;
+            height: 10px;
+            padding: 20px;
+            margin: 10px;
+        }
+        .btn{
+            width: 75px;
+            height: 35px;
+            margin: 20px;
+        }
+        .container{
+            min-height: calc(100vh - 80px - 80px);
+            background-color: aliceblue;
+        }
+        h1{
+            font-size: 50px;
+            display: block;
+        }
+        .cricket{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            font-family: 'Alkatra', cursive;
+        }
+        .img2{
+            height: 500px;
+            margin-left: 30%;
+        }
+        .img3{
+            height: 200px;
+        }
+        .img4{
+            height: 200px;
+        }
+        .img5{
+            height: 200px;
+        }
+        .img6{
+            height: 200px;
+        }
+        footer{
+            background-color: #2874f0;
+            text-align: center;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (max-width:1000px) {
+        .img1{
+        height: 30px;
+        }
+        header{
+        display: grid;
+        height: 40vh;
+        }
+        input{
+        width: 200px;
+        }
+        .btn{
+        width: 50px;
+        }
+        .img2{
+        margin: 50px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" class="img1"alt="">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <input type="text" placeholder="Search here">
+        <button class="btn">Search</button>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">
+                <img src="https://image01.realme.net/general/20220217/1645104977336.png" class="img2" alt="">
+            </div>
+            <h1>Cricket Stuff</h1>
+            <div class="cricket">
+                <div class="bats">
+                    <h2>Bats</h2>
+                    <img src="https://images.meesho.com/images/products/133718152/wuf5b_512.jpg" class="img3" alt="">
+                    <p>50% Off</p>
+                    <p>Grab Now</p>
+                </div>
+                <div class="balls">
+                    <h2>Balls</h2>
+                    <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41rLTZbPpCL._SX425_.jpg" class="img4" alt="">
+                    <p>50% Off</p>
+                    <p>Grab Now</p>
+                </div>
+                <div class="stumps">
+                    <h2>Stumps</h2>
+                    <img src="https://rukminim1.flixcart.com/image/416/416/kmf7ki80/wicket/j/l/e/cricket-stumps-cricket-wicket-plastic-cricket-stumps-willage-original-imagfbg5scjxkvvd.jpeg?q=70" class="img5" alt="">
+                    <p>50% Off</p>
+                    <p>Grab Now</p>
+                </div>
+                <div class="helmet">
+                    <h2>Helmet</h2>
+                    <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71TwvW1UW7L._SL1500_.jpg" class="img6" alt="">
+                    <p>50% Off</p>
+                    <p>Grab Now</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; Mycart.com
+    </footer>
+</body>
+</html>

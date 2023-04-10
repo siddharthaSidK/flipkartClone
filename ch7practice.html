@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch7 Practice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            color: aliceblue;
+            height: 100px;
+            background-color: black;
+        }
+        li{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            margin: 23px;
+            padding: 13px;
+        }
+        .container{
+            background-color: aquamarine;
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: auto auto;
+            height: 50vh;
+        }
+        .div1{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+        }
+        .div2{
+            background-color: chartreuse;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="div1">
+            div1
+        </div>
+        <div class="div2">
+            div2
+        </div>
+    </div>
+</body>
+</html>

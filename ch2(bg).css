@@ -1,0 +1,17 @@
+.class{
+    /* background-image: url("prabhas.avif");
+    height: 1334px;
+    width: 344px;
+    border: 2px solid red;
+    background-repeat: no-repeat; */
+    /* background-size: 1300px 300px; */
+    /* background-size: cover; */
+    /* background-size: contain;
+    background-position: top left;
+    background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    /* background-attachment: local; */
+    height: 1300px;
+    width: 300px;
+    background: red url('hunter350.jpg') no-repeat fixed top right
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch6 practice</title>
+    <style>
+        header{
+            background-color: black;
+            color: aliceblue;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        img{
+            height: 300px;
+            width: 500px;
+        }
+        li{
+            display: inline;
+            font-size: 34px;
+        }
+        .container{
+            /* background-color: aquamarine; */
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+        .box1{
+            background-color: aqua;
+            height: 25vh;
+            width: 25vw;
+        }
+        .box2{
+            background-color: chocolate;
+            height: 25vh;
+            width: 25vw;
+            /* align-self: flex-start; */
+        }
+        .box3{
+            background-color: chartreuse;
+            height: 25vh;
+            width: 25vw;
+        }
+        .flex{
+            background-image: url('https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Logos/Medium/MI.png');
+            height: 50vh;
+            background-repeat: repeat-x;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="prabhas.avif" alt="">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flex"></div>
+    <div class="container">
+        <div class="box1">box1 <img src="hunter350.jpg" alt=""></div>
+        <div class="box2">box2 <img src="lamborghini.jpg" alt=""></div>
+        <div class="box3">box3 <img src="img.jpg" alt=""></div>
+    </div>
+</body>
+</html>

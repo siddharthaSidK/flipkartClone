@@ -1,0 +1,27 @@
+/* nav{
+    color: aqua;
+    background-color: darkblue;
+}
+.container{
+    height: 123px;
+    width: 123px;
+    background-color: darkred;
+}
+.bgimg{
+    height: 300px;
+    width: 370px;
+    background-image: url('prabhas.avif');
+} */
+/* .vb{
+    height: 1300px;
+    background-image: url('hunter350.jpg');
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+.vb{
+    height: 1300px;
+    width: 2700px;
+    background: red url('hunter350.jpg') no-repeat fixed;
+    /* background-size: contain; */
+}

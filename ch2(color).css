@@ -1,0 +1,12 @@
+.red{
+    color: rgb(63, 248, 7);
+    background-color: rgb(12, 138, 249);
+}
+.green{
+    color:hsl(180, 100%, 50%);
+    background-color: #f31c1c;
+}
+.blue{
+    color:rgba(193, 238, 13, 0.365);
+    background-color: rgba(0, 0, 0, 0.963);
+}

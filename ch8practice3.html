@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating image</title>
+    <style>
+        img{
+            animation: prabhas 2s ease-in 1s 3 normal;
+        }
+        @keyframes prabhas{
+            from{
+                transform-origin: center;
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="prabhas.avif" alt="">
+</body>
+</html>
